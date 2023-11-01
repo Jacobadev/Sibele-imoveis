@@ -9,10 +9,17 @@ npm install
 ```
 npm run watch
 ```
+
+### Start development server
+```
+npm run dev
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
 ```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
