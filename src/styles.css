@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+
+@layer base{
+body,html {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+}
+}
+@layer utilities {
+@keyframes HrAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scalex(7.6);
+  }}
+  .active {
+    @apply bg-padrao text-white
+  }
+
+.animation {
+    @apply cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125
+  }
+  .impact-tittle{
+    font-family: 'Playfair Display', serif;
+}
+}
+
+@layer components {
+  /*  Header */
+
+  .link-icons {
+    @apply animation;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  #ytb {
+    @apply animation;
+    margin-top: -0.1rem;
+    width: 47px;
+    height: 47px;
+  }
+  .line-separator {
+    width: 12%;
+    @apply mx-auto mb-4 mt-8 h-0.5 rounded-full bg-padraoHover bg-opacity-60;
+    animation: HrAnimation 1.5s linear forwards;
+  }
+   /* Menu */ 
+   .menu-links {
+    @apply animation p-3 text-xl transition-colors duration-200 ease-in text-padrao;
+  }
+  .menu-links:hover{
+    @apply bg-padrao text-white ;
+  }
+
+
+  /* Forms */  
+
+  .standard-select {
+    @apply h-10 w-44 border border-gray-300 px-2 text-padrao;
+  }
+  .standard-forms-grid {
+    @apply grid grid-flow-row justify-center gap-2 text-center ;
+  }
+  .standard-label {
+    @apply text-base font-light placeholder:text-gray-300 placeholder:opacity-40;
+  }
+  .standard-input {
+    @apply h-10 w-32 border border-gray-300 px-2 focus:border-padraoHover;
+  }
+
+ 
+  /* Cards */
+  .card-size {
+    height: 450px;
+    width: 265px;
+  }
+  
+    
+}
