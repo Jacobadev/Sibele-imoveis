@@ -54,8 +54,7 @@ npm run build
 
 
 ### Authors
-- Luiz Carlos 
-- Rafael da Silva
+- Luiz Carlos
 
 
 
