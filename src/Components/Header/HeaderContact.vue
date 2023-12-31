@@ -12,7 +12,7 @@
             <p>(21) 9 7897-9556</p>
 
             <img
-              src="../../../assets/ZapIcon.png"
+              src="../../assets/ZapIcon.png"
               alt="Zap-Icon"
               class="-mt-1 ml-1.5 h-8 w-8"
             />
@@ -31,7 +31,7 @@
           <div>
             <a href="#">
               <img
-                src="../../../assets/InstagramIcon.png"
+                src="../../assets/InstagramIcon.png"
                 alt="Instagram icon"
                 class="link-icons"
               />
@@ -41,7 +41,7 @@
           <div id="youtube">
             <a href="#">
               <img
-                src="../../../assets/YoutubeIcon.png"
+                src="../../assets/YoutubeIcon.png"
                 alt="Youtube icon"
                 id="ytb"
               />
