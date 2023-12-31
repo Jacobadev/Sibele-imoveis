@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import HeaderMenu from "./HeaderMenu.vue";
-import HeaderContact from "./HeaderContact.vue";
+import HeaderMenu from "../Header/HeaderMenu.vue";
+import HeaderContact from "../Header/HeaderContact.vue";
 export default {
   name: "AppHeader",
   components: {

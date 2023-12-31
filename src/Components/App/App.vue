@@ -1,24 +1,24 @@
 <template>
   <div>
-    <app-header />
-    <app-main />
-    <cards />
-    <AppFooter />
+    <AppHeader/>
+    <AppMain/>
+    <Cards />
+    
   </div>
 </template>
 
 <script>
-import AppHeader from "../Header/AppHeader.vue";
+import AppHeader from "./AppHeader.vue";
 import AppMain from "./AppMain.vue";
-import AppFooter from "./AppFooter";
+
+import Cards from "../Card/Cards.vue"
 
 export default {
   name: "App",
   components: {
     AppHeader,
     AppMain,
-    Cards,
-    AppFooter,
+    Cards
   },
 };
 </script>
